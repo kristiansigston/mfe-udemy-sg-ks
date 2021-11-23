@@ -7,7 +7,7 @@ on:
     paths:
       - "project/container/**"
 
-    workflow_dispatch:
+  workflow_dispatch:
 
 defaults:
   run:
