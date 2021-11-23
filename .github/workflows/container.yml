@@ -7,6 +7,8 @@ on:
     paths:
       - "project/container/**"
 
+    workflow_dispatch:
+
 defaults:
   run:
     working-directory: project/container
